@@ -1,0 +1,39 @@
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Java
+*.class
+
+# Python (in case python scripts are added later)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Archives
+*.zip
+*.tar.gz
+
+# Private keys and credentials (never commit private keys)
+*.key
+private_key.pem
+private.key
+server.key
+id_rsa
+id_ecdsa
+id_ed25519
+
+
+/tls-keys.log
+
+*.pcapng
