@@ -8,7 +8,8 @@ Practical implementations, algorithms, and experiments for Information Security 
 
 | Experiment | Title | Description | Link |
 |:---:|---|---|:---:|
-| **01** | Caesar, Vigenère & Rail Fence Ciphers | Classical substitution and transposition ciphers implementation, encryption, decryption, and effectiveness comparison. | [View Experiment](./Exp01_Caesar_Vigenere_RailFence/README.md) |
+| **01** | Caesar Ciphers and Vigener Ciphers | Classical substitution and transposition ciphers implementation, encryption, decryption, and effectiveness comparison. | 
+[View Experiment](./Exp01_Caesar_Vigenere/README.md) |
 | **02** | Frequency Analysis of Classical Ciphers | Frequency analysis on classical ciphertexts and vulnerability to cryptanalysis using CrypTool. | [View Experiment](./Exp02_Frequency_Analysis/README.md) |
 | **03** | DES & AES Encryption and Decryption | DES and AES symmetric encryption and decryption workflows and security comparison using CrypTool 2. | [View Experiment](./Exp03_DES_AES_Encryption/README.md) |
 | **04** | RSA Key Generation, Encryption & Decryption | Asymmetric 2048-bit RSA key generation, public key encryption, and private key decryption with OAEP padding using OpenSSL. | [View Experiment](./Exp04_RSA_Key_Generation/README.md) |
