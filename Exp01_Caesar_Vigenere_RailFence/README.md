@@ -1,4 +1,4 @@
-# Experiment 1: Implementation of Caesar, Vigenère, and Rail Fence Ciphers
+# Experiment 1: Implementation of Caesar Ciphers and Vigenèr Ciphers
 
 ## 1. Aim
 
