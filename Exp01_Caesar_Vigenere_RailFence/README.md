@@ -36,7 +36,6 @@ To implement Caesar, Vigenère, and Rail Fence ciphers to encrypt and decrypt th
 **Key:** `KEY`  
 **Ciphertext:** `RIJVS UYVJN`
 
-
 ## 4. Working Procedure
 
 ### A. Caesar Cipher
