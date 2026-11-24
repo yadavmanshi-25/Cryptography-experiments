@@ -176,9 +176,3 @@ The HTTPS capture showed TLS handshake messages and encrypted application data.
 
 The experiment demonstrated that HTTP does not provide built-in encryption, whereas HTTPS uses TLS to protect application data during transmission.
 
-## 7. Precautions
-
-- Capture only authorized network traffic.
-- Select the correct active network interface.
-- Ensure website requests are generated during packet capture.
-- Use the appropriate display filters for HTTP and TLS analysis.
