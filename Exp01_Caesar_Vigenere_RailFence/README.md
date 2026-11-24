@@ -80,26 +80,12 @@ To implement Caesar, Vigenère, and Rail Fence ciphers to encrypt and decrypt th
 
 ![Vigenere Decryption](Screenshots/Vigenere_Decryption.png)
 
-## 6. Comparison of Working and Effectiveness
-
-| Cipher | Working Method | Effectiveness |
-|---|---|---|
-| Caesar Cipher | Shifts each letter by a fixed number of positions. | Easy to use, but easily broken because of its small key space. |
-| Vigenère Cipher | Uses a repeating keyword to determine the shift for each letter. | More resistant than Caesar to simple frequency analysis, but vulnerable to attacks on repeated-key patterns. |
-
-
-### Explanation
-
-- **Caesar Cipher:** Changes each letter according to a fixed shift.
-- **Vigenère Cipher:** Uses a keyword to apply different shifts to letters.
-
-These classical ciphers demonstrate basic encryption techniques but are not suitable for modern secure communication.
-
-## 7. Result
+## 6. Result
 
 Caesar and Vigenère ciphers both are implemented for encryption and decryption. Their working methods and effectiveness were compared.
 
 Caesar uses a fixed shift, Vigenère uses a repeating keyword.
-## 8. Conclusion
+
+## 7. Conclusion
 
 The experiment demonstrated substitution and transposition techniques in classical cryptography. The results show that these ciphers are useful for understanding encryption fundamentals but have significant security limitations.
