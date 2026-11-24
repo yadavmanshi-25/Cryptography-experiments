@@ -106,22 +106,13 @@ type decrypted_message.txt
 
 ---
 
-## 7. Analysis & Observations
-
-1. **Key Asymmetry:** The message was encrypted using the public key (`public_key.pem`) and could only be successfully decrypted using the private key (`private_key.pem`).
-2. **Ciphertext Size:** For a 2048-bit RSA key, the ciphertext block size is strictly 256 bytes (2048 bits), regardless of the plaintext length within the allowed padding limit.
-3. **Security with OAEP:** Using `rsa_padding_mode:oaep` ensures high cryptographic strength by randomizing the ciphertext, preventing frequency analysis and semantic attacks.
-4. **Verification:** The decrypted content `This is a secure RSA encryption test.` strictly matched the input message, confirming successful round-trip encryption and decryption.
-
----
-
-## 8. Result
+## 7. Result
 
 The 2048-bit RSA key pair was successfully generated using OpenSSL. The plaintext message was encrypted using the public key with OAEP padding and subsequently decrypted using the private key, completely recovering the original plaintext.
 
 ---
 
-## 9. Conclusion
+## 8. Conclusion
 
 The experiment successfully demonstrated the principles and practical execution of the RSA public-key cryptosystem. Asymmetric cryptography eliminates the requirement for exchanging a secret key over an insecure channel, making RSA a cornerstone for secure digital communication, SSL/TLS handshakes, and digital signatures.
 
